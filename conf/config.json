@@ -13,6 +13,7 @@
 				{
 					"id": "CLIENT_ID",
 					"alterId": CLIENT_ALTERID
+                                        "security": "aes-128-gcm"                      
 				}
 			]
 		},
