@@ -3,7 +3,7 @@ from nginx:latest
 ENV CLIENT_ID "f3c9cb27-746f-4e41-acf2-820bd3002676"
 ENV CLIENT_ALTERID 100
 ENV CLIENT_WSPATH "/fuckgfw_letscrossgfw"
-ENV VER=3.28
+ENV VER=4.20.0
 
 ADD conf/nginx.conf /etc/nginx/
 ADD conf/default.conf /etc/nginx/conf.d/
