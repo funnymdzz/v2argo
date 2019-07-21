@@ -18,10 +18,7 @@
 			]
 		},
 		"streamSettings":{
-			"network":"ws",
-			"wsSettings": {
-			"path": "CLIENT_WSPATH"
-			}
+			"network":"ws"
 		}
 	},
 	"outbound": {
