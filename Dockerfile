@@ -19,9 +19,7 @@ RUN cd v2 \
 	&& mv ./v2ray /usr/local/bin/ \
 	&& mv ./v2ctl /usr/local/bin/ \
 	&& chmod 777 /usr/local/bin/v2ctl \
-	&& chmod 777 /usr/local/bin/v2ray \
-	&& rm -rf v2ray.zip \
-	&& rm -rf v2ray-v$VER-linux-64
+	&& chmod 777 /usr/local/bin/v2ray
 
 RUN chmod -R 777 /var/log/nginx /var/cache/nginx /var/run \
 	&& chgrp -R 0 /etc/nginx \
