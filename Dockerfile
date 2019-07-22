@@ -9,7 +9,7 @@ RUN apk add --no-cache --virtual .build-deps ca-certificates wget \
 	&& unzip v2ray.zip \
 	&& chmod 777 v2ctl \
 	&& chmod 777 v2ray \
-        && echo "fuck you!"
+        && echo -e "$CONFIG_JSON" > config.json
 
 COPY config.txt /v2raybin/config.json
  
