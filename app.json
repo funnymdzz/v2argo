@@ -1,0 +1,14 @@
+{
+  "name": "V2ray",
+  "description": "Deploy V2Ray to Heroku.",
+  "keywords": ["V2ray"],
+  "env": {
+    "CONFIG_JSON": {
+       "description": "your configuration",
+       "value": "none"
+     }
+  },
+  "website": "https://github.com/funnymdzz/v2openshift",
+  "repository": "https://github.com/funnymdzz/v2openshift",
+  "stack": "container"
+ }
