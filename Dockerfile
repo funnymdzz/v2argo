@@ -1,4 +1,4 @@
-FROM ubuntu:bionic
+FROM ubuntu:latest
 
 ENV VER=4.20.0
 
@@ -15,6 +15,8 @@ RUN apt update \
  	&& chmod -R g+rwX /v2raybin 
  
 ADD entrypoint.sh /entrypoint.sh
+
+COPY config.txt /v2raybin/config.json
 
 RUN chmod +x /entrypoint.sh 
 
