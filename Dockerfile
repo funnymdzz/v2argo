@@ -20,6 +20,5 @@ COPY config.txt /v2raybin/config.json
 
 RUN chmod +x /entrypoint.sh 
 
-ENTRYPOINT  /entrypoint.sh 
+CMD  /entrypoint.sh 
 
-EXPOSE 8080
