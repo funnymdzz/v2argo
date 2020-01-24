@@ -1,0 +1,8 @@
+{
+  "name": "V2ray",
+  "description": "Deploy V2Ray to Heroku.",
+  "keywords": ["V2ray"], 
+  "website": "https://github.com/ki8852/v2ray-heroku",
+  "repository": "https://github.com/ki8852/v2ray-heroku",
+  "stack": "container"
+ }
