@@ -3,5 +3,5 @@ credentials-file:  argo.json
 
 ingress:
   - hostname: cm.huaji.ga
-    service: http://localhost:PORT
+    service: http://localhost:8080
   - service: http_status:404
