@@ -2,6 +2,6 @@ tunnel:  ID
 credentials-file:  argo.json
 
 ingress:
-  - hostname: cm.huaji.ga
+  - hostname: DOM
     service: http://localhost:PORT
   - service: http_status:404
