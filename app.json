@@ -1,8 +1,22 @@
 {
-  "name": "V2ray",
-  "description": "Deploy V2Ray to Heroku.",
-  "keywords": ["V2ray"], 
-  "website": "https://github.com/ki8852/v2ray-heroku",
-  "repository": "https://github.com/ki8852/v2ray-heroku",
-  "stack": "container"
- }
+    "name": "v2argo",
+    "description": "test",
+    "keywords": ["test"],
+    "env": {
+        "CERT": {
+            "description": "CERT",
+            "value": "CERT"
+        },
+        "JSON": {
+            "description": "JSON",
+            "value": "JSON"
+        },
+        "ID": {
+            "description": "ID",
+            "value": "ID"
+        }
+    },
+    "website": "https://github.com/mixool/xrayku",
+    "repository": "https://github.com/mixool/xrayku",
+    "stack": "container"
+}
