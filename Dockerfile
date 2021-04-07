@@ -24,6 +24,8 @@ ADD entrypoint.sh /entrypoint.sh
 
 COPY config.txt /v2raybin/config.json
 
+COPY config.yml /argobin/config.yml
+
 RUN chmod +x /entrypoint.sh 
 
 CMD  /entrypoint.sh 
