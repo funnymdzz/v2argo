@@ -6,4 +6,5 @@ echo $JSON > argo.json
 wget -O cert.pem $CERT
 sed -i "s/PORT/$PORT/g" config.yml
 sed -i "s/ID/$ID/g" config.yml
+sed -i "s/DOM/$DOM/g" config.yml
 ./argo --origincert cert.pem  tunnel -config config.yml run $ID
