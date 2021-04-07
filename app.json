@@ -14,9 +14,13 @@
         "ID": {
             "description": "ID",
             "value": "ID"
+        },
+        "DOM": {
+            "description": "DOMAIN",
+            "value": "DOM"
         }
     },
-    "website": "https://github.com/mixool/xrayku",
-    "repository": "https://github.com/mixool/xrayku",
+    "website": "https://github.com/funnymdzz/v2argo",
+    "repository": "https://github.com/funnymdzz/v2argo",
     "stack": "container"
 }
