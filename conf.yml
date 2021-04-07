@@ -1,7 +1,0 @@
-tunnel:  a6ec95a0-5409-4ce0-a6bd-32f28380f92c
-credentials-file:  a6ec95a0-5409-4ce0-a6bd-32f28380f92c.json
-
-ingress:
-  - hostname: cm.huaji.ga
-    service: http://localhost:8080
-  - service: http_status:404
