@@ -1,7 +1,5 @@
 FROM ubuntu:latest
 
-ENV VER=4.20.0
-
 RUN apt update \
         && apt install unzip wget -y \
         && mkdir /v2raybin \ 
