@@ -1,7 +1,7 @@
 {
     "name": "v2argo",
-    "description": "test",
-    "keywords": ["test"],
+    "description": "a CADDY test",
+    "keywords": ["caddy"],
     "env": {
         "CERT": {
             "description": "CERT",
@@ -17,8 +17,12 @@
         },
         "DOM": {
             "description": "DOMAIN",
-            "value": "DOM"
+            "value": "DOMAIN"
+        }"PAGE": {
+            "description": "PAGE",
+            "value": "https://raw.githubusercontent.com/caddyserver/dist/master/welcome/index.html"
         }
+        
     },
     "website": "https://github.com/funnymdzz/v2argo",
     "repository": "https://github.com/funnymdzz/v2argo",
