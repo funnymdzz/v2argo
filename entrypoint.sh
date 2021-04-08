@@ -10,5 +10,6 @@ sed -i "s/ID/$ID/g" config.yml
 sed -i "s/DOM/$DOM/g" config.yml
 ./argo --origincert cert.pem  tunnel -config config.yml run $ID &
 cd /caddybin
+sed -i "s/PORT/$PORT/g" caddyfile
 wget --no-check-certificate -O index.html $PAGE
 ./caddy run --config caddyfile --adapter caddyfile
