@@ -15,7 +15,7 @@
       ]
     },
     "streamSettings": {
-      "network": "ws"
+      "network": "h2"
     }
   },
   "inboundDetour": [],
