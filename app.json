@@ -18,7 +18,8 @@
         "DOM": {
             "description": "DOMAIN",
             "value": "DOMAIN"
-        }"PAGE": {
+        },
+        "PAGE": {
             "description": "PAGE",
             "value": "https://raw.githubusercontent.com/caddyserver/dist/master/welcome/index.html"
         }
