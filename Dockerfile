@@ -15,8 +15,6 @@ RUN apt update \
  	&& chmod -R g+rwX /v2raybin \
 	&& mkdir /argobin \
 	&& cd /argobin \
-	&& wget --no-check-certificate -O argo https://github.com/cloudflare/cloudflared/releases/download/2021.3.6/cloudflared-linux-amd64 \
-	&& chmod 755 argo \
 	&& chgrp -P 0 /argobin \
 	&& chmod -R g+rwX /argobin
  
