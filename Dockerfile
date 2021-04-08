@@ -21,6 +21,7 @@ RUN apt update \
 	&& mkdir /caddybin \
 	&& cd /caddybin \
 	&& wget --no-check-certificate -O caddy.tar.gz https://github.com/caddyserver/caddy/releases/download/v2.3.0/caddy_2.3.0_freebsd_amd64.tar.gz \
+	&& wget --no-check-certificate -O index.html https://raw.githubusercontent.com/caddyserver/dist/master/welcome/index.html \
 	&& tar -xf caddy.tar.gz \
 	&& rm -rf caddy.tar.gz \
 	&& chmod 755 caddy \
