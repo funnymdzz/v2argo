@@ -1,4 +1,5 @@
 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+#已经基本可以使用#
 **部署在heroku 用cloudflare argo tunnel 传输v2ray流量 延迟较低**
 **怎么用自己看entrypoint.sh**
 ## 注意：
