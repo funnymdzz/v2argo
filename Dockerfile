@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM alpine:latest
 
 RUN apk add --no-cache --virtual .build-deps ca-certificates wget \
         && wget -q -O /etc/apk/keys/sgerrand.rsa.pub https://alpine-pkgs.sgerrand.com/sgerrand.rsa.pub \
