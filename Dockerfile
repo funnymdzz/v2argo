@@ -28,8 +28,7 @@ RUN apk add --no-cache --virtual .build-deps ca-certificates wget \
 	&& chmod 755 caddy \
 	&& chmod +x /caddybin/caddy \
 	&& chgrp -R 0 /caddybin \
-	&& chmod -R g+rwX /caddybin \
-	&& apt clean
+	&& chmod -R g+rwX /caddybin
 	
 	
  
