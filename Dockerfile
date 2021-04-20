@@ -3,7 +3,7 @@ FROM alpine:latest
 RUN apk add --no-cache --virtual .build-deps ca-certificates wget \
         && wget -q -O /etc/apk/keys/sgerrand.rsa.pub https://alpine-pkgs.sgerrand.com/sgerrand.rsa.pub \
         && wget https://github.com/sgerrand/alpine-pkg-glibc/releases/download/2.33-r0/glibc-2.33-r0.apk \
-        && apk add--no-cache --virtual .build-deps  glibc-2.33-r0.apk \
+        && apk add--no-cache glibc-2.33-r0.apk \
 	&& rm -rf glibc-2.33-r0.apk \
         && mkdir /v2raybin \ 
         && cd v2raybin \
